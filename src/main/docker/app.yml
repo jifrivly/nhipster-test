@@ -1,0 +1,8 @@
+version: '2'
+services:
+  nhipster-app:
+    build: ../../..
+    container_name: nhipster-app
+    environment:
+    ports:
+      - 8081:8081:
